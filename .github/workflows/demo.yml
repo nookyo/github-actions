@@ -11,5 +11,5 @@ jobs:
           echo First line!
           echo Second line!
       - name: Atp update
-        run: apt update
+        run: sudo apt update
   
