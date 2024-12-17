@@ -6,4 +6,8 @@ jobs:
     steps:
       - name: Print Console
         run: echo Hello GH actions!
+      - name: Print few lines
+        run: |
+          echo First line!
+          echo Second line!
   
